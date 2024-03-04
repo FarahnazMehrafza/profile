@@ -6,7 +6,7 @@ const ContactForm = () => {
     const [name, setName] = useState<string>("");
     const [email, setEmail] = useState<string>("");
     const [message, setMessage] = useState<string>("");
-
+//test
     //Create a handle submit function which basically console.log the states as one line prevent the default behavior from happening
     // pass events as a parameter which takes the type React.FormEvent<HTMLFormElement>
      
@@ -17,7 +17,7 @@ const ContactForm = () => {
                <input type="text" value={name} placeholder='Name'
                 //   onChange={setName(/*Event Target Value*/)}
                 />
-                
+
                  <input type="email" value={email} placeholder="Email" />
                  <textarea value={message} placeholder="message..."></textarea>
         {/* 1. Submitting the form (console log the values from the state*/}
