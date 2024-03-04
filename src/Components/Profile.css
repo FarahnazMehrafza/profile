@@ -1,0 +1,79 @@
+/* Style the Profile component using an external CSS file named Profile.css. */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dadcd5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cover {
+    position: relative;
+    top: 0;
+    left: 17%; 
+    right: 17%;
+    height: 300px;
+    width: 66%;
+    background-color: rgb(77, 83, 81);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    font-size: 24px;
+    background-image: url("img/cover.png") ;
+}
+
+.profile_photo 
+{
+    align-content: center;
+    border-radius: 50%;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 5px solid rgb(231, 226, 226);
+    top: 100%;
+    left: 20%;
+    object-fit: 0px;
+    top: 250px;
+
+
+    
+ }
+ 
+ .heading 
+ {
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+ font-stretch: expanded;
+ font-size: 1.5em;
+ align-self: flex-start;
+ margin-left: 25%;
+ color: rgb(28, 74, 20);
+ margin-bottom:-1%;
+ 
+
+ 
+ 
+ }
+.main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+        
+}
+.p1 {
+    font-size: 1.5rem;
+    background-color: rgb(32, 61, 46);
+    margin-left: 19%;
+    margin-right: 19%;
+    color:rgb(177, 181, 176); ;
+    }
+.body {
+        top: 500px;
+        left: 15%;
+    }
+
+    
