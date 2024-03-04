@@ -16,11 +16,8 @@ const App =() => {
       <Contact/>
       <ContactForm/>
       <>
-      <Greeting name="fara" age="30" isMale={false} handleClick={handleClick} />
-
-      
+      <Greeting name="fara" age={30} isMale={false} handleClick={handleClick} />
       </>
-
     </div>
   );
 };
