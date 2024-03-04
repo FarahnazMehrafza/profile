@@ -1,0 +1,29 @@
+My first React project:
+Tasks:
+Task 1: Create a Profile Component
+In the components folder, create a file named Profile.tsx.
+This component renders a profile picture and two describing your professional background, skills, or interests. a short biography text.
+Style the Profile component using an external CSS file named Profile.css.
+Task 2: Create a LinkButtons Component
+Create a component named LinkButtons.tsx in the components folder.
+This component should render three buttons, each enclosed in an <a> tag for LinkedIn, GitHub, and a resume. Hardcode the URLs for each button.
+Make sure each <a> tag includes the target="_blank" attribute to ensure links open in a new window or tab.
+Style the buttons using an external CSS file named LinkButtons.css.
+Task 3: Create a Contact Component
+In the components folder, create a new file named Contact.tsx.
+This component should render a simple contact form. The form should include:
+A text input for the user's name.
+An email input for the user's email address.
+A textarea for the message.
+A submit button with the label "Send" or similar.
+Beneath the contact form, incorporate the LinkButtons component to render the LinkedIn, GitHub, and resume links.
+Style the contact form and the overall Contact component using an external CSS file named Contact.css.
+Task 4: Incorporate Components into App.tsx
+Import the Profile and Contact components into App.tsx.
+Render these components in the following order: Profile and Contact within the App.tsx return statement.
+Use App.css to adjust any layout styling needed for the overall application
+
+Submission Guidelines:
+Submit your code by pushing the project to a GitHub repository.
+Ensure your repository is public so it can be reviewed.
+Include a README.md in your repository with a brief description of the project and instructions on how to run it.
