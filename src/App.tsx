@@ -1,6 +1,7 @@
 import Profile from "./Components/Profile";
 import Contact from "./Components/Contact";
 import LinkButtons from "./Components/LinkButtons";
+import ContactForm from "./Components/Form"
 
 const App =() => {
   return (
@@ -10,6 +11,7 @@ const App =() => {
       <LinkButtons/>
 
       <Contact/>
+      <ContactForm/>
 
     </div>
   );
