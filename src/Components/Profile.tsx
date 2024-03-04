@@ -2,15 +2,20 @@
 //*  two describing your professional background, skills, or interests. a short biography text.
 import './Profile.css';
 import './Contact.css';
+import ProfilePhoto from "../assets/farah.png"
+import CoverPhoto from "../assets/cover.png"
 
+//tst
 const Profile = () =>
 {
 return ( 
 <div className='body'>
-   <div className='cover'> </div>
+  <div className="CoverPhoto">
+         <img src={CoverPhoto} alt='cover Pic' />
+    </div>
    <div className='main'>
      <div className="profile_photo">
-         <img src="src/img/farahnaz.png" alt='Profile Pic' />
+         <img src={ProfilePhoto} alt='Profile Pic' />
 
      </div>
      
