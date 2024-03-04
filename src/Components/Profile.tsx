@@ -10,11 +10,11 @@ return (
    <div className='cover'> </div>
    <div className='main'>
      <div className="profile_photo">
-         <img src="img/farahnaz.png" alt='Profile Pic' />
+         <img src="src/img/farahnaz.png" alt='Profile Pic' />
 
      </div>
      
-     <div className="heading"> <p>Faranaz Mehrafza </p>
+     <div className="heading"> <p>Farahnaz Mehrafza </p>
      
       <p>Front-end Developer JS React </p>
       
