@@ -47,8 +47,7 @@ body {
  {
     font-size: 2.5rem;
     background-color: rgb(186, 215, 186);
-    width: 66%;
-    margin-left: 16%;
+    
     font: 1em sans-serif; 
     font-family: 'Courier New', Courier, monospace;
     font-weight:bolder;
@@ -58,7 +57,10 @@ body {
     margin-bottom:0%;
     text-align: left;
     padding-top: 15px;
-    padding-left: 2%; 
+    width: 54%;
+    margin-left: 16%;
+    padding-left: 14%; 
+    margin-right: -20%;
     color: rgb(79, 105, 105);
     
  }
@@ -78,7 +80,7 @@ body {
     margin-left: 19%;
     margin-right: 19%;
     width: 68%;
-    color:gb(202, 225, 207);
+    color: #eddec2;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     
@@ -98,7 +100,7 @@ font-family: 'Courier New', Courier, monospace;
  font-size: 1.5rem;
  align-self: flex-start;
  margin-left: 0%;
- color: rgb(143, 175, 137);
+ color: rgb(186, 215, 186);
  margin-bottom: 10px;
  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;

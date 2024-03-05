@@ -55,13 +55,16 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #4b8f4b;
     background-color: #ffffff;
   }
   a:hover {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
-  }
+    background-color: #c7f6cc;
+    color: hsla(38, 62%, 55%, 0.972);
+    margin: 6px;
+    box-shadow: #072319; }
+  
 }
