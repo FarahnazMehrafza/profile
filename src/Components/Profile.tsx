@@ -4,7 +4,7 @@ import './Profile.css';
 import './Contact.css';
 import ProfilePhoto from "../assets/farah.png"
 import CoverPhoto from "../assets/cover.png"
-
+/* */
 const Profile = () =>
 {
 return ( 
