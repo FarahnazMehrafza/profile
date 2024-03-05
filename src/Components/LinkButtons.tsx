@@ -12,13 +12,13 @@ const LinkButtons: React.FC = () => {
   return (
     <div className="frame">
         <a href="www.linkedin.com/in/farahnazmehrafza" target="_blank" >
-           <button  className="li-button">LinkedIn</button>
+           <button  className="li-button">MyLinkedIn</button>
         </a>
       <a href="https://github.com/FarahnazMehrafza" target="_blank" >
-        <button className="git-button">GitHub</button>
+        <button className="git-button">MyGitHub</button>
       </a>
       <a href="https://farahnazmehrafza-portfolio.netlify.app/Farahnaz_Mehrafza_resume%20.pdf" target="_blank" >
-        <button className="resu-button">Resume</button>
+        <button className="resu-button">MyResume</button>
       </a>
     </div>
   );

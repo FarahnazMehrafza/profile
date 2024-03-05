@@ -25,11 +25,15 @@ return (
       </div>
       
         <div className="p1">
-        <p className='heading-p' > ABOUT ME  </p>
+        <p className='heading-p' > Who Am I ? </p>
           A passionate Full Stack Developer who is a tech lover and love to make an idea into real. 
         Leveraging expertise in Frontend Software Development participated in product development 
         for Banking and health Applications. 
+       <div> <p className='heading-p' > How to contact me? </p> </div>
     </div>
+   
+    
+
     </div>
 </div>
   );

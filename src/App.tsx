@@ -15,9 +15,7 @@ const App =() => {
       </div>
          <Profile/>
          <ContactForm/>
-      <>
-      <Greeting name="fara" age={30} isMale={false} handleClick={handleClick} />
-      </>
+      
     </div>
 
   );

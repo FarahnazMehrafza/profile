@@ -7,7 +7,7 @@ interface GreetingProps {
   handleClick: () => void;
 }
 
-const Greeting= ({ name, age, isMale, handleClick }: GreetingProps) => {
+const Greeting= ({ name, age, isMale, handleClick}: GreetingProps) => {
   return (
     <>
       <h1 className="heading">Welcome to my app</h1>
@@ -28,7 +28,7 @@ const Greeting= ({ name, age, isMale, handleClick }: GreetingProps) => {
       )} */}
       {isMale && <p>You are a male</p>}
 
-      <button onClick={handleClick}>Click me</button>
+      <button onClick ={handleClick} >Click me</button>
     </>
   );
 };

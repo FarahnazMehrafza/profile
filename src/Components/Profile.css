@@ -45,18 +45,22 @@ body {
  
  .heading 
  {
- font-family: 'Courier New', Courier, monospace;
- font: weight 100px;
- font-stretch: expanded;
- font-size: 1.5rem;
- align-self: flex-start;
- margin-left: 25%;
- color: rgb(143, 175, 137);
- margin-bottom:-1%;
- box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-border-radius: 8px;
- 
- 
+    font-size: 2.5rem;
+    background-color: rgb(186, 215, 186);
+    width: 66%;
+    margin-left: 16%;
+   font: 1em sans-serif; 
+   font-family: 'Courier New', Courier, monospace;
+   font-weight:bolder;
+   font-stretch: expanded;
+   font-size: 1rem;
+   align-self: flex-start;
+   margin-bottom:0%;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 2%; 
+    color: rgb(79, 105, 105);
+    
  }
 .main{
     text-align: center;
