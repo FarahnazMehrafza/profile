@@ -6,20 +6,21 @@
 
 // LinkButtons.tsx
 
+import React from 'react';
 import './LinkButtons.css';
 
-const LinkButtons: React.FC = () => {
+interface LinkbuttonProps {
+  label: string;
+  href:string;
+};
+
+const LinkButtons :React.FC<LinkbuttonProps> = ({ label, href }) => {
   return (
-    <div className="frame">
-        <a href="www.linkedin.com/in/farahnazmehrafza" target="_blank" >
-           <button  className="li-button">MyLinkedIn</button>
+   <div className="frame">
+        <a href={href} target="_blank" >
+           <button>{label}</button>
         </a>
-      <a href="https://github.com/FarahnazMehrafza" target="_blank" >
-        <button className="git-button">MyGitHub</button>
-      </a>
-      <a href="https://farahnazmehrafza-portfolio.netlify.app/Farahnaz_Mehrafza_resume%20.pdf" target="_blank" >
-        <button className="resu-button">MyResume</button>
-      </a>
+     
     </div>
   );
 };

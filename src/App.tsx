@@ -3,19 +3,18 @@ import LinkButtons from "./Components/LinkButtons";
 import ContactForm from "./Components/Form"
 
 
-const App =() => {
- 
 
+
+const App = () => {
   return ( 
     <div className="main">
-      <div className="LinkButtons"> 
-         <LinkButtons/> 
-      </div>
-         <Profile/>
-         <ContactForm/>
-      
+         <Profile />
+         <LinkButtons label="My Resume"href="https://farahnazmehrafza-portfolio.netlify.app/Farahnaz_Mehrafza_resume%20.pdf" /> 
+         <LinkButtons label="My GitHub" href="https://github.com/FarahnazMehrafza" /> 
+         <LinkButtons label="My LinkedIn" href="www.linkedin.com/in/farahnazmehrafza"  /> 
+         {/* Profile title ="Want to know me more?" />  */}
+         <ContactForm/> 
     </div>
-
   );
 };
 
