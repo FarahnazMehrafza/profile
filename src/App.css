@@ -4,6 +4,13 @@
     align-items: center;
     min-height: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(79, 105, 105);
+    color: rgb(202, 225, 207);
 
+}
+
+.LinkButton {
+   position: fixed;
+   top: 0%;
+   left: 0%;
+   margin: 16px;
 }

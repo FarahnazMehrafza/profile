@@ -8,11 +8,13 @@ const App =() => {
     console.log("Clicked on Button");
   };
 
-  return (
+  return ( 
     <div className="main">
-      <Profile/>
-      <LinkButtons/>
-      <ContactForm/>
+      <div className="LinkButtons"> 
+         <LinkButtons/> 
+      </div>
+         <Profile/>
+         <ContactForm/>
       <>
       <Greeting name="fara" age={30} isMale={false} handleClick={handleClick} />
       </>
