@@ -2,9 +2,59 @@
 //*  two describing your professional background, skills, or interests. a short biography text.
 import './Profile.css';
 import './Contact.css';
-import ProfilePhoto from "../assets/farah.png"
-import CoverPhoto from "../assets/cover.png"
-/* */
+/*import ProfilePhoto from "../assets/farah.png"
+import CoverPhoto from "../assets/cover.png" */
+
+interface CoverPhotoProps {
+  url: string;
+}
+const CoverPhoto: React.FC<CoverPhotoProps> = ({ url }) => {
+  return <img src={url} alt="Cover Photo" className='CoverPhoto'/>;
+};
+
+
+interface ProfilePhotoProps {
+  url: string;
+}
+const ProfilePhoto: React.FC<ProfilePhotoProps > = ({ url }) => {
+  return <img src={url} alt="Profile Photo" className='profile_photo '/>;
+};
+
+interface ProfileHeadingProps {
+  Titr: string;
+  };
+
+const ProfileHeading: React.FC< ProfileHeadingProps> = ({ Titr }) => {
+  return (
+   <div >
+        <p className="heading"> {Titr} </p>
+    </div>
+  );
+}
+
+
+
+ 
+interface ProfileTextProps {
+  bioText:string;
+  };
+ 
+const ProfileText :React.FC< ProfileTextProps> = ({ bioText }) => {
+  return (
+   <div >
+        <p className="text"> {bioText} </p>
+    </div>
+  );
+};
+
+export { ProfileHeading, ProfileText,CoverPhoto,ProfilePhoto };
+export default ProfileHeading;
+
+
+
+
+
+/* 
 const Profile = () =>
 {
 return ( 
@@ -35,7 +85,8 @@ return (
 
     </div>
 </div>
+
   );
 };
 
-export default Profile;
+export default Profile;*/

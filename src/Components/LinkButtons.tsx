@@ -13,7 +13,6 @@ interface LinkbuttonProps {
   label: string;
   href:string;
 };
-
 const LinkButtons :React.FC<LinkbuttonProps> = ({ label, href }) => {
   return (
    <div className="frame">
