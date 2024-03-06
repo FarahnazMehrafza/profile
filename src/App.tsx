@@ -14,9 +14,11 @@ const App = () => {
 
          <ProfileText bioText="A passionate Full Stack Developer who is a tech lover and love to make an idea into real. Leveraging expertise in Frontend Software Development participated in product development for Banking and health Applications."  />
         <ProfileHeading Titr="Who Am I ?"/>
-
-         <LinkButtons label="My Resume"href="https://farahnazmehrafza-portfolio.netlify.app/Farahnaz_Mehrafza_resume%20.pdf" /> 
+        <p></p>
+         <LinkButtons label="My Resume"href="https://farahnazmehrafza-portfolio.netlify.app/Farahnaz_Mehrafza_resume%20.pdf" />
+         <p></p> 
          <LinkButtons label="My GitHub" href="https://github.com/FarahnazMehrafza" /> 
+         <p></p>
          <LinkButtons label="My LinkedIn" href="www.linkedin.com/in/farahnazmehrafza" /> 
          <ProfileHeading Titr="Wanna Contact Me?"/>
          {/* Profile title ="Want to know me more?" />  */}
