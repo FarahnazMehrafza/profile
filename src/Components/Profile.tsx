@@ -12,7 +12,7 @@ const CoverPhoto: React.FC<CoverPhotoProps> = ({ url }) => {
   return <img src={url} alt="Cover Photo" className='CoverPhoto'/>;
 };
 
-
+/* */
 interface ProfilePhotoProps {
   url: string;
 }
