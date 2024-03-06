@@ -7,8 +7,8 @@ import ProfileHeading, { ProfileText, CoverPhoto, ProfilePhoto } from './Compone
 const App = () => {
   return ( 
     <div className="main">
-         <CoverPhoto url="../src/assets/cover.png" />
-         <ProfilePhoto url="..//src/assets/farah.png"/>
+         <CoverPhoto url="../public/cover.png" />
+         <ProfilePhoto url="../public/farah.png"/>
          <ProfileHeading Titr=" Farahnaz Mehrafza " />
          <ProfileHeading Titr=" Frontend Developer JS Reac" />
 
